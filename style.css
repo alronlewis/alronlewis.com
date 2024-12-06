@@ -67,9 +67,6 @@ body {
   height: 50px;
   z-index: 12;
 }
-.navbar-container input[type="checkbox"]:checked ~ .menu-items {
-  transform: translateX(0);
-}
 
 .navbar-container {
   display: flex;
