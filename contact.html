@@ -31,15 +31,18 @@
 
             <div class="form-container">
                 <h2>Contact Us</h2>
-                <form action="https://api.web3forms.com/submit" method="POST">
+               <form action="https://api.web3forms.com/submit" method="POST">
 
                     <!-- Replace with your Access Key -->
-                    <input type="hidden" name="access_key" value="974ff8d6-dcb4-4259-8f58-a9f1f26113db">
+                <input type="hidden" name="access_key" value="974ff8d6-dcb4-4259-8f58-a9f1f26113db">
                 
                 <input type="text" placeholder="Your Name" required />
                 <input type="email" placeholder="E-Mail" required />
-                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
-                <a href="#" class="btn btn-primary">Submit</a>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <button type="submit">Submit Form</button>
+                </form>
             </div>
         </div>
     </section>
