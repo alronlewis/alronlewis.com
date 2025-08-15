@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alron Lewis - Artist Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .cover-section {
+      background: url('cover.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .cover-section h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+   
+    header {
+        background: url('homecover.jpg') center/cover no-repeat;
+        padding: 60px 20px;
+        text-align: center;
+        
+    }
+    header h1 {
+        font-size: 2.8rem;
+        margin: 0;
+        font-style: inherit;
+        color: white;
+        text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+    header p {
+        font-size: 1.5rem;
+        font-style: italic;
+        color: white;
+        text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+    .about-section img {
+      max-width:250px;
+      border-radius: 50%;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    /* Social buttons container */
+    .social-buttons {
+      display: flex;
+      flex-wrap: wrap; /* Allows wrapping on smaller screens */
+      justify-content: center;
+      gap: 10px; /* Even spacing between buttons */
+     }
+
+/* Social button styles */
+    .social-buttons a {
+     min-width: 140px; /* Makes them equal width */
+     text-align: center;
+     }
+
+     footer {
+            background: #222;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        footer a:hover {
+            color: #ffd700;
+        }
+  </style>
+</head>
+<body>
+
+<!-- Cover Page -->
+<header>
+    <h1>Art by Alron Lewis</h1>
+    <p>Start with 0%, but end up infinite</p>
+</header>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Alron Lewis</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="commission.html">Commissions</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="terms.html">Privacy Policy & Rights</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- About Me -->
+<section class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="Alron Lewis.jpg" alt="Profile Picture">
+      </div>
+      <div class="col-md-8">
+        <h2>About Me</h2>
+        <p>
+          Hi, I’m Alron Lewis, a self-taught traditional artist since 2020.
+          I specialize in graphite medium and enjoy drawing both realistic and anime-style art. 
+          With years of experience, I have mastered the art of drawing and even the finest details in my work.
+          I believe art is not just a hobby; it's a way of life.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Art Gallery -->
+<section class="gallery-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">A showcase of my journey — each piece tells a story beyond the paper.</h2>
+    <div class="row g-3 gallery">
+      <div class="col-md-4"><img src="Jeremy Renner.jpg" alt="Art 1"></div>
+      <div class="col-md-4"><img src="Gold Macaw.jpg" alt="Art 2"></div>
+      <div class="col-md-4"><img src="DI_WqFEsor4_0.jpg" alt="Art 3"></div>
+    </div>
+  </div>
+</section>
+<!-- Social Links -->
+<!-- Social Links -->
+<section class="social-links py-4 text-center">
+  <h4>Connect with Me</h4>
+  <p >Stay connected! Explore my art.</p>
+  <!-- Buttons -->
+  <div>
+    <a href="https://www.instagram.com/artist_alron.lewis/" class="btn btn-outline-dark mx-2"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="https://cara.app/artistalronlewis" class="btn btn-outline-dark mx-2"><i class="fab fa-cara"></i> Cara</a>
+    <a href="https://www.youtube.com/@artist_alronlewis" class="btn btn-outline-dark mx-2"><i class="fab fa-youtube"></i> YouTube</a>
+    </a>
+      <a href="https://www.kokuyocamlin.com/camel/artist/alron-lewis/7825" target="_blank" class="btn btn-outline-dark">
+        Camelin
+      </a>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer>
+    © 2025 Alron Lewis - All Rights Reserved
+    <p>
+        <a href="index.html">Home</a> | 
+        <a href="commission.html">Commission Page</a> | 
+        <a href="contact.html">Contact</a> | 
+        <a href="terms.html">Privacy Policy & Rights</a>
+     </p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
